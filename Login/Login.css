@@ -1,0 +1,78 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    background:white;
+    margin: 0 auto 0 auto;  
+    width: 100%; 
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    background-image: url("");
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+}
+
+label {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid;
+
+}
+
+
+.container {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    margin: 150px auto 0 auto;
+    padding:30px 0px 100px 0px;
+    border: silver 4px solid; 
+    box-shadow: 5px;
+}
+
+.username {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.signIn {
+  background:lime;
+  width: 125px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:white;
+  border-radius: 4px;
+  border: 1px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 16px;
+  font-weight: 800;
+  font-size :0.8em;
+}
+
+.signUp {
+    background: red;
+    width: 125px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 16px;
+    font-weight: 800;
+    font-size: 0.8em;
+}
+
+
