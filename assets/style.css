@@ -185,7 +185,8 @@ section .item .to-cart {
 
 section .item .to.cart:hover {
     color: #000000;}
-    
+
+    /* Shopping Cart Style */
 section .cart {
     width: 100%;
     border: 1px solid #ffffff;
@@ -258,6 +259,7 @@ section .cart {
     border-radius: 10px;
 }
 
+/* Checkout Style */
 #checkoutPage .grid-container {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
