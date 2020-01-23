@@ -165,10 +165,24 @@ section .items .item-body a {
     background-color: #ffffff;
     width: 24.5%;
     margin-left: 0.45%;
-    padding: 5px;
+    padding: 15px 10px;
 }
 
 section .item {
+    color: #000000;
+}
+
+section .item img {
+    height: 250px;
+}
+
+section .item button {
+    background-color: #f7b5b5;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+
+section .item button:hover {
     color: #000000;
 }
 
