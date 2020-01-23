@@ -262,7 +262,13 @@ section .cart {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     width: 100%;
-    height: 100vh;
+    flex: 1;
+}
+
+#checkoutPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #checkoutPage .info {
@@ -300,6 +306,21 @@ section .cart {
     padding-top: 114px;
 }
 
+#checkoutPage .ringkasanTitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 114px;
+}
+
+#checkoutPage #payButton {
+    width: 404px;
+    height: 50px;
+}
+
 #checkoutPage .additional {
     width: 404px;
     margin-left: auto;
@@ -308,9 +329,59 @@ section .cart {
     grid-template-columns: 1fr 2.3fr;
 }
 
+#checkoutPage .priceGrid {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+#checkoutPage .itemGrid {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 0.3fr 0.8fr 0.6fr;
+}
+
+#checkoutPage .itemPhoto {
+    width: 100%;
+    height: auto;
+}
+
+#checkoutPage .itemAmount {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#checkoutPage .itemPrice {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#checkoutPage .totalPrice {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 #checkoutPage #additionalText {
     text-align: right;
     padding-right: 10px;
+}
+
+#checkoutPage #priceLabels {
+    text-align: right;
+    margin-right: 20px;
+}
+
+#checkoutPage #price {
+    text-align: left;
 }
 
 #checkoutPage .additionalSelectors {
@@ -325,5 +396,5 @@ footer {
     text-align: center;
     padding: 10px;
     position: relative;
-    top: 80px;
+    margin-top: 80px;
 }
