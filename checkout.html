@@ -39,6 +39,8 @@
                     <input class="inputHalf" type="text" placeholder="Kode Pos" />
                     <br>
                     <input class="inputBox" type="text" placeholder="Nomor Telefon" />
+                    <br>
+                    <input class="inputBox" type="text" placeholder="Email" />
                 </div>
                 <br>
                 <div class="additional">
@@ -55,9 +57,82 @@
                         <select class="additionalSelectors" id="asuransiSelector"><option>Iya</option><option>Tidak</option></select>
                     </div>
                 </div>
+                <br>
+                <label>Metode Pembayaran</label>
+                <br>
+                <input type="radio" name="pembayaran-group" checked='checked'>
+                <label>Kartu Kredit/Debit  </label>
+                <input type="radio" name="pembayaran-group">
+                <label>Transfer</label>
+                <br>
+                <br>
+                <br>
+                <button id="payButton" title="Bayar" type="submit">Bayar</button>
+                <br>
+                <br>
+                <br>
             </div>
-            <div class="items">2</div> 
+            <div class="items">
+                <div class="ringkasanTitle">
+                    <label>Ringkasan</label>
+                </div>
+                <br>
+                <div class="itemGrid">
+                    <div class="itemAmount">
+                        <label>1x </label>
+                    </div>
+                    <div>
+                        <img class="itemPhoto" src="img/kopi1.jpg" alt="item4">
+                    </div>
+                    <div class="itemPrice">
+                        <label>Rp. 100.000,-</label>
+                    </div>
+                    <div class="itemAmount">
+                        <label>1x </label>
+                    </div>
+                    <div>
+                        <img class="itemPhoto" src="img/kopi2.jpg" alt="item4">
+                    </div>
+                    <div class="itemPrice">
+                        <label>Rp. 100.000,-</label>
+                    </div>
+                    <div class="itemAmount">
+                        <label>1x </label>
+                    </div>
+                    <div>
+                        <img class="itemPhoto" src="img/kopi3.jpg" alt="item4">
+                    </div>
+                    <div class="itemPrice">
+                        <label>Rp. 100.000,-</label>
+                    </div>
+                </div>
+                <br>
+                <div class="priceGrid">
+                    <div id="priceLabels">
+                        <label>Subtotal</label>
+                        <br>
+                        <label>Jasa Pengirim</label>
+                        <br>
+                        <label class="totalPrice">Total</label>
+                    </div>
+                    <div id="price">
+                        <label>Rp. 300.000,-</label>
+                        <br>
+                        <label>Rp. 20.000,-</label>
+                        <br>
+                        <label class="totalPrice">Rp. 320.000,-</label>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
         </div>
+        <!-- footer -->
+        <footer>
+            <h3>Kelompok 3</h3>
+        </footer>
+
     </body>
 
 </html>
