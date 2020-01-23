@@ -319,6 +319,12 @@ section .cart {
 #checkoutPage #payButton {
     width: 404px;
     height: 50px;
+    display: inline-block;
+    padding: 15px;
+    background-color: #4f4f4f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 #checkoutPage .additional {
@@ -349,6 +355,7 @@ section .cart {
 #checkoutPage .itemPhoto {
     width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 #checkoutPage .itemAmount {
@@ -458,4 +465,13 @@ footer {
     padding: 10px;
     position: relative;
     margin-top: 80px;
+}
+#foot {
+    background-color:#4f4f4f;
+    color:    #fff;
+    font-family: sans;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 0 !important;
 }
