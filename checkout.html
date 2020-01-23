@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Checkout</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <!-- header -->
+    <header>
+        <img src="img/logo.png" alt="Tokoku" id="logo">
+        <nav>
+            <input type="text" name="search" id="search" placeholder="Search"/>
+            <ul>
+                <a href="#" id="first"><li>Sign Up</li></a>
+                <a href="#"><li>Login</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- body -->
+    <body id="checkoutPage">
+        <div class="grid-container">
+            <div class="info">
+                <!-- Jenis Jasa Pengiriman, Asuransi, Nama, Alamat, Kota/Kabupaten, Provinsi, Kode Pos, Nomor HP -->
+                
+                <div class="checkoutTitle">
+                    <label>Checkout,</label>
+                </div>
+                <br>
+                <div class="contact">
+                    <input class="inputHalf" type="text" placeholder="Nama Depan" />
+                    <input class="inputHalf" type="text" placeholder="Nama Belakang" />
+                    <br>
+                    <textarea class="inputArea" rows="4" placeholder="Alamat"></textarea>
+                    <br>
+                    <input class="inputBox" type="text" placeholder="Kota/Kabupaten" />
+                    <br>
+                    <input class="inputHalf" type="text" placeholder="Provinsi" />
+                    <input class="inputHalf" type="text" placeholder="Kode Pos" />
+                    <br>
+                    <input class="inputBox" type="text" placeholder="Nomor Telefon" />
+                </div>
+                <br>
+                <div class="additional">
+                    <div id="additionalText">
+                        <label id="pengirimanLabel">Jasa Pengiriman: </label>
+                        <br>
+                        <br>
+                        <label id="asuransiLabel">Asuransi: </label>
+                    </div>
+                    <div>
+                        <select class="additionalSelectors" id="pengirimanSelector"><option>JNE</option><option>TiKi</option><option>GoJek</option><option>AnterAja</option></select>
+                        <br>
+                        <br>
+                        <select class="additionalSelectors" id="asuransiSelector"><option>Iya</option><option>Tidak</option></select>
+                    </div>
+                </div>
+            </div>
+            <div class="items">2</div> 
+        </div>
+    </body>
+
+</html>
