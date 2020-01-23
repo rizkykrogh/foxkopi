@@ -232,9 +232,17 @@ section .cart {
     width: 100px;
 }
 
-.cart .action {
+.action .action-left,
+.action .action-right  {
+    margin: 10px 0;
+}
+
+.action .action-left {
+    float: left;
+}
+
+.action .action-right {
     float: right;
-    margin: 10px 0px;
 }
 
 .img-delete {
