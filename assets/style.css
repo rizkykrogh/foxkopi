@@ -193,6 +193,10 @@ section .cart {
     vertical-align: baseline;
 }
 
+.cart table tr:hover {
+    background-color: #eee;
+}
+
 .cart table td img {
     vertical-align: middle;
 }
