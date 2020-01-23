@@ -432,18 +432,6 @@ section .cart {
     background-image: url("wallpaperLogin.jpg");
 }
 
-
-.box {
-    background-color: white;
-    left: 460px;
-    right: 460px;
-    border-radius: 10px;
-    margin: 120px auto 0 auto;
-    padding:30px 0px 100px 0px;
-    border: silver 4px solid; 
-    position: absolute;
-}
-
 .username {
     padding-top: 5px;
     padding-bottom: 2px;
