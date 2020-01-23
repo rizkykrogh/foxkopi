@@ -185,8 +185,7 @@ section .cart {
 }
 
 .cart table th, .cart table td{
-    border-radius: 10px;
-    border: 1px solid black;
+    border-bottom: 1px solid #cccccc;
     padding: 10px;
 }
 
