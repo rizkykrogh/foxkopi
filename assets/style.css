@@ -388,6 +388,35 @@ section .cart {
     width: 100%;
 }
 
+/* description style */
+#descriptionpage .box {
+    margin: 0 auto;
+}
+
+#descriptionpage .penjelasan1 h3 {
+    
+}
+
+#descriptionimage .penjelasan1 p {
+    
+}
+
+#descriptionimage .penjelasan2 p {
+    
+}
+
+#descriptionimage .penjelasan2 ul {
+    
+}
+
+#descriptionimage .penjelasan2 li {
+    
+}
+
+#descriptionimage .checkout {
+    
+}
+
 /* footer style */
 footer {
     background-color:#4f4f4f;
