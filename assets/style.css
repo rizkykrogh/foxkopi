@@ -172,6 +172,48 @@ section .item {
     color: #000000;
 }
 
+section .cart {
+    width: 100%;
+}
+
+.cart table {
+    border-radius: 10px;
+    margin: 25px 0px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.cart table th, .cart table td{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cart table td {
+    vertical-align: baseline;
+}
+
+.cart table td img {
+    vertical-align: middle;
+}
+
+.cart table td img.product-img {
+    width: 100px;
+}
+
+.img-delete {
+    width: 24px;
+}
+
+.btn {
+    padding: 15px;
+    background-color: #4f4f4f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
 /* footer style */
 footer {
     background-color:#4f4f4f;
