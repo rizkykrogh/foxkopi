@@ -166,23 +166,49 @@ section .items .item-body a {
     background-color: #ffffff;
     width: 24.5%;
     margin-left: 0.45%;
-    padding: 5px;
+    padding: 15px 10px;
 }
 
 section .item {
     color: #000000;
 }
 
+section .item img {
+    height: 250px;
+}
+
+section .item .to-cart {
+    background-color: #f7b5b5;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+
+section .item .to.cart:hover {
+    color: #000000;}
+    
 section .cart {
     width: 100%;
+    border: 1px solid #ffffff;
+    background-color: #d7d5d5;
+    border-radius: 10px;
+}
+
+.cart h2 {
+    padding: 20px;
+    font-family: sans-serif;
+    border-bottom: 3px solid #fff;
+}
+
+.cart .cart-body {
+    margin: 0.5%;
 }
 
 .cart table {
-    border-radius: 10px;
+    width: 100%;
     margin: 25px 0px;
     border-collapse: collapse;
     text-align: center;
-    width: 100%;
+    background: #fff;
 }
 
 .cart table th, .cart table td{
@@ -206,11 +232,25 @@ section .cart {
     width: 100px;
 }
 
+.action .action-left,
+.action .action-right  {
+    margin: 10px 0;
+}
+
+.action .action-left {
+    float: left;
+}
+
+.action .action-right {
+    float: right;
+}
+
 .img-delete {
     width: 24px;
 }
 
 .btn {
+    display: inline-block;
     padding: 15px;
     background-color: #4f4f4f;
     color: #fff;
