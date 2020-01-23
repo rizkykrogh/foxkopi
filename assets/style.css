@@ -398,32 +398,59 @@ section .cart {
 }
 
 /* description style */
+#descriptionpage {
+    background-color: #d7d5d5;
+    
+}
+
 #descriptionpage .box {
-    margin: 0 auto;
+    margin: 0px 200px;
+    text-align: center;
+    background-color: white;
 }
 
-#descriptionpage .penjelasan1 h3 {
+#descriptionpage .box img {
+    width: 100%
+}
+
+#descriptionpage .penjelasan1 {
+    text-align: center;
+    padding: 0 50px;
+}
+
+#descriptionpage .penjelasan1 p {
+    text-align: justify;
     
 }
 
-#descriptionimage .penjelasan1 p {
+#descriptionpage p {
+    text-align: center;
+}
+
+#descriptionpage .penjelasan2 ul {
+    text-align: center;
+    width: 20%;
+    margin: 20px auto;
+}
+
+#descriptionpage .penjelasan2 li {
+    text-align: left;
+}
+
+#descriptionpage .checkout {
     
 }
 
-#descriptionimage .penjelasan2 p {
-    
+#descriptionpage .totalcheckout{
+    display: inline-block;
+    vertical-align: middle;
 }
 
-#descriptionimage .penjelasan2 ul {
-    
-}
-
-#descriptionimage .penjelasan2 li {
-    
-}
-
-#descriptionimage .checkout {
-    
+#descriptionpage .actioncheckout{
+    border: solid 1px black;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
 }
 /* Login style */
 .login {
@@ -483,7 +510,7 @@ footer {
     text-align: center;
     padding: 10px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 
